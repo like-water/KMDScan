@@ -1,5 +1,5 @@
 # komondorScan
-在之前公司与同事一起设计、开发、落地应用的一款自动化安全测试工具
+一款自动化安全测试工具，感谢@AloneFire
 # komondorScan   
 
 ## poc开发   
