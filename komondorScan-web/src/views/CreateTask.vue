@@ -8,7 +8,7 @@
                 </span>
                 <el-dropdown-menu slot="dropdown" style="font-size:14px;">
                     <el-dropdown-item>
-                        <a href="http://confluence.tech.apitops.com/pages/viewpage.action?pageId=8750196" target="_blank" style="color:#888">如何代理抓包</a>
+                        <a href="http://confluence.tech.test.com/pages/viewpage.action?pageId=8750196" target="_blank" style="color:#888">如何代理抓包</a>
                     </el-dropdown-item>
                 </el-dropdown-menu>
             </el-dropdown>
@@ -82,7 +82,7 @@
                             type: 'whitelist',
                             where: 'host',
                             regex:
-                                '^[0-9a-zA-Z-]+\\.test\\.(apitops|topsboard)\\.com$'
+                                '^[0-9a-zA-Z-]+\\.test\\.(test|topsboard)\\.com$'
                         },
                         {
                             type: 'whitelist',

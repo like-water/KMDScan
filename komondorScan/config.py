@@ -53,8 +53,8 @@ class Config_Dev(object):
                                  "--web-iface 0.0.0.0 " \
                                  "-s /Users/Bevis/Documents/Projects/Git/komondorScan/tools/proxy_script.py " \
                                  "--client-certs /Users/Bevis/.mitmproxy " \
-                                 "--cert *.apitops.com=/Users/Bevis/.mitmproxy/apitops.com.pem " \
-                                 "--cert *.tops001.com=/Users/Bevis/.mitmproxy/tops001.com.pem "
+                                 "--cert *.atest.com=/Users/Bevis/.mitmproxy/atest.com.pem " \
+                                 "--cert *.test007.com=/Users/Bevis/.mitmproxy/test007.com.pem "
 
     SWAGGER = {
         'uiversion': 3,
@@ -67,9 +67,9 @@ class Config_Dev(object):
 class Config_Ga(Config_Dev):
     SQLALCHEMY_DATABASE_URI = "mysql+mysqldb://opskit:bLKGLQBtdxBVDqsk5Jy73RBkifbNML@mysql.00.upanb.cn/kk_opskit?charset=utf8mb4"
     SQLALCHEMY_ECHO = False
-    AUTH_SERVER_HOST = "http://alopex.apitops.com"
-    AUTH_SERVER_LOGIN_URL = "http://alopex.apitops.com/login"
-    AUTH_SERVER_LOGOUT_URL = "http://alopex.apitops.com/logout"
+    AUTH_SERVER_HOST = "http://alopex.atest.com"
+    AUTH_SERVER_LOGIN_URL = "http://alopex.atest.com/login"
+    AUTH_SERVER_LOGOUT_URL = "http://alopex.atest.com/logout"
 
     APP_ID = "3f6fe0f28bbd11e7962000163e133b79"
     APP_SECRET = "u4qjdhXQLpFLVfNizyFZzpEH0brVpd90KX2iesSQ"
@@ -84,7 +84,7 @@ class Config_Ga(Config_Dev):
 
     SUPERVISORMAN_HOST = "http://127.0.0.1:6215"
 
-    CORS_ORIGINS = ["http://kmdscan.apitops.com"]
+    CORS_ORIGINS = ["http://kmdscan.atest.com"]
 
     DATA_SOURCE_PROXY_TEMPLATE = "/home/admin/.pyenv/versions/3.6.2/bin/python " \
                                  "/home/admin/.pyenv/versions/3.6.2/bin/mitmweb " \
@@ -92,8 +92,8 @@ class Config_Ga(Config_Dev):
                                  "--web-iface 0.0.0.0 --insecure " \
                                  "-s /home/admin/projects/komondorScan/tools/proxy_script.py " \
                                  "--client-certs /home/admin/.mitmproxy " \
-                                 "--cert *.apitops.com=/home/admin/.mitmproxy/apitops.com.pem " \
-                                 "--cert *.tops001.com=/home/admin/.mitmproxy/tops001.com.pem "
+                                 "--cert *.atest.com=/home/admin/.mitmproxy/atest.com.pem " \
+                                 "--cert *.test007.com=/home/admin/.mitmproxy/test007.com.pem "
 
 
 Config = Config_Dev
