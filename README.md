@@ -30,7 +30,9 @@ class Poc(BasePOC):
 
 
 if __name__ == "__main__":
-    print Poc("http://alopex.apitops.com").execute()
+    print Poc("http://aex.tests.com").execute()
 ```
 
 **另注：本平台只限用于安全测试使用；切勿用于其它用途；如有法律责任，概不负责！**
+#另 这里ip、数据库等信息都是瞎写的，大家按照自己实际情况填写
+

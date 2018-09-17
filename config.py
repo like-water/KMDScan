@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 import os
 
+# 这里ip、数据库等信息都是瞎写的，大家按照自己实际情况填写
+
 
 class Config_Dev(object):
     SQLALCHEMY_DATABASE_URI = "mysql+mysqldb://root:zx3zxc@192.168.10.10/kmd_scan?charset=utf8mb4"

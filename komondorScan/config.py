@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 import os
 
-
+# 这里ip、数据库等信息都是瞎写的，大家按照自己实际情况填写
 class Config_Dev(object):
-    SQLALCHEMY_DATABASE_URI = "mysql+mysqldb://root:zxc123zxc@192.168.7.60/kmd_scan?charset=utf8mb4"
+    SQLALCHEMY_DATABASE_URI = "mysql+mysqldb://root:zxc123zxc@1.1.7.6/kmd_scan?charset=utf8mb4"
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     # 要比数据库 wait_timeout 参数要小
     SQLALCHEMY_POOL_RECYCLE = 50
@@ -17,9 +17,9 @@ class Config_Dev(object):
     APP_ID = "3d0ca0517d9211e7bc3fac87a304fa2e"
     APP_SECRET = "J4SlsHZ9lXrtd2C5tWlh1Xvljf6YBUcu5e4gfRdM"
 
-    AUTH_SERVER_HOST = "http://192.168.7.60:6200"
-    AUTH_SERVER_LOGIN_URL = "http://192.168.7.60:6200/login"
-    AUTH_SERVER_LOGOUT_URL = "http://192.168.7.60:6200/logout"
+    AUTH_SERVER_HOST = "http://12.18.7.60:6200"
+    AUTH_SERVER_LOGIN_URL = "http://12.168.7.60:6200/login"
+    AUTH_SERVER_LOGOUT_URL = "http://12.168.7.60:6200/logout"
 
     REDIS_HOST = "192.168.7.60"
     REDIS_PORT = 6379
