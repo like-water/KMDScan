@@ -45,4 +45,4 @@ class Poc(BasePOC):
 
 if __name__=="__main__":
 
-    print Poc("http://kmdscan-api.apitops.com/api/tasklog/1",data={'pageSkip':"0",'pageTake':'10'}).execute()
+    print Poc("http://kmdscan-api.test.com/api/tasklog/1",data={'pageSkip':"0",'pageTake':'10'}).execute()

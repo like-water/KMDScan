@@ -15,4 +15,4 @@ class Poc(BasePOC):
 
 
 if __name__ == "__main__":
-    print Poc("http://alopex.apitops.com").execute()
+    print Poc("http://a.tets.com").execute()
