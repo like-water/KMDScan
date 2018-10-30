@@ -2,7 +2,6 @@
 
 > komondorScan
 
-
 ## Build Setup
 
 ``` bash

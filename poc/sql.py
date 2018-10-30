@@ -1,6 +1,8 @@
 import requests,json,time
 from kmdpoc.base_poc import BasePOC
 
+#use sqlmapapi 
+
 class SqlmapApi:
     def __init__(self):
         resp=requests.get("http://127.0.0.1:8775/task/new")
